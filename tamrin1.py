@@ -113,16 +113,25 @@
 #     print(f"the even number between {first_num} and {second_num} are: {numList}")
 
 #########.تعدادی عدد از کاربر دریافت کرده و بزرگترین و مجموع  آنها را چاپ کند(دقت کنید محدودیتی برای تعداد در نظر گرفته نشده و می تونید مثلا عدد صفر  و یا ۰۱ رو پایان ورود اعداد دریافتی قرار دهید)
-num = 1
-numberList = []
-biggest = 0
-while num != 0:
-    num = int(input("Please enter a number (ENTER 0 to stop): "))
-    numberList.append(num)  
-    biggest = numberList[0]
-    for x in numberList:
-        if(x > biggest):
-            biggest = x
-    print(f"{biggest} IS SO FAR THE BIGGEST")
+# num = 1
+# numberList = []
+# biggest = 0
+# while num != 0:
+#     num = int(input("Please enter a number (ENTER 0 to stop): "))
+#     numberList.append(num)  
+#     biggest = numberList[0]
+#     for x in numberList:
+#         if(x > biggest):
+#             biggest = x
+#     print(f"{biggest} IS SO FAR THE BIGGEST")
 
-print(f"{biggest} IS THE BIGGEST")
+# print(f"{biggest} IS THE BIGGEST")
+
+# #########################.عددی رو در مبنای ده‌دهی  دریافت کرده و به مبنای دودویی تبدیل کند (و یا برعکس)
+# num = int(input("ENTER A DECIMAL NUMBER TO CONVERT TO BINARY: "))
+# binary = bin(num)[2:]
+# print(binary)
+
+# num2 = input("ENTER A BINARY NUMBER TO CONVERT TO DECIMAL: ")
+# decimal = int(num2, 2)
+# print(decimal)
